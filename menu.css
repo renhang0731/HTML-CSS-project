@@ -1,0 +1,225 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#fbffea;
+	font-family:montserrat,sans-serif;
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	}
+
+	.heading{
+		background-color: rgb(188, 188, 188);
+		display: flex;
+		flex-flow: column;
+		height: 50px;
+		display: grid;
+		grid-template-columns: auto 15px 93px 15px 66px ;
+	
+	}
+	
+	.heading p{
+		position: relative;
+		text-align: right;
+		right: 20px;
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	}
+
+	a { 
+		text-decoration: none; 
+		color: inherit;
+	
+	}
+	
+	a:link, a:visited {
+		color: black;
+	  
+	}
+	  
+	a:hover, a:active {
+		color: grey;
+		transition: 0.25s;
+	  
+	}
+
+	.title img {
+		position: relative;
+		float: left;
+		width: 128px;
+		height: 128px;
+	
+	}
+	
+.naviagtion-conatiner{
+	position:absolute;
+	top:50px;		
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+
+	}
+
+					
+.menu ul{
+	margin:0px;					
+	display:flex;
+	}
+	
+.menu ul li{
+	list-style:none;
+    }						
+.menu ul li a{
+	display:block;
+	margin:10px 0px;
+	padding:10px 25px;
+	text-decoration:none;
+	font-weight:200;
+	font-size:12px;
+	color:#FFFFFF;
+    }
+
+.menu i{
+	font-size:20px;	
+	color:#FFFFFF;
+	font-family:myriad pro;
+	font-weight:200;
+    }
+								
+
+.btn {							
+	float:right;
+	margin:0px !important;
+	padding:0px !important;		
+    display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:15px !important;						
+	}
+											
+.swiper-slide{
+    display:flex;								
+	align-items:center;
+	box-sizing:border-box;
+    }
+								
+.slide-box{
+	margin:100px;
+	display:flex;
+	flex-wrap:1;
+	justify-content:space-between;
+    }
+							
+.slider-text{
+	flex-basis:400px;
+	color:#FFFFFF;
+	}	
+				
+.slider-text p{
+	color:rgba(110,105,105,1.00);
+	line-height:20px;
+    }	
+							
+h6{
+	font-size:15px;
+	word-spacing:5px;
+	line-height:20px;
+	color:#DC721F;
+	flex-wrap:wrap;
+	}
+
+h2{
+	font-size:50px;
+	word-spacing:-2px;
+    }
+	
+		.slider-img{
+			
+			height:450px;
+			}
+		.slider-img img{
+			max-height:100%;
+			max-width:100%;}
+	
+		
+	
+		.cetagories{
+			display:flex;
+		}
+		
+			.cetagories a{
+				font-size:20px;
+				justify-content:center;
+				font-weight:550;
+				text-decoration:none;
+				width:120px;
+				box-sizing:border-box;
+				height:40px;
+				color:#DC721F;
+				border:2px solid #DC721F;
+				display:flex;
+				align-items:center;
+				background-color: black;
+			}
+									
+.shoes-logo img{										
+	position:absolute;
+	left:70px;
+    bottom:5px ;
+	height:35px;
+}
+
+.list {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+	border:#FFFFFF;
+	border-radius: 5px;
+	
+}
+
+.list a{
+	display: flex;
+	justify-content: space-around;
+	color:#DC721F;
+	border:2px solid #DC721F;
+	font-size:20px;
+	font-weight:550;
+	justify-content:center;
+	align-items:center;
+	height:30px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+
+}
+
+.list img{
+	height: 250PX;
+
+}
+
+.list h1{
+	font-size: 200%;
+	color:black;
+
+}
+
+.price {
+	color: rgb(38, 38, 38);
+	font-size: 22px;
+
+  }
+
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	width: 140%
+  }
+
+  .footer{
+	height: 100px;
+  }

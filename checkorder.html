@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/L0Ks0wj/LOGO-minimum.jpg">
+
+    <title>Order page</title>
+
+    <link rel="stylesheet" href="checkorder.css"/>
+
+</head>
+<body>
+<div class="heading">
+        <p>
+          <a href="index.html">
+            Home
+          </a>
+        </p>
+</div>
+<br>
+<br>
+<div class="header">
+  <a href="index.html" class="logo"><img src="https://i.ibb.co/nB5G5gM/LOGO.jpg" alt="SportingParadise" style="width: 128px;height: 128px;"></a>
+</div>
+<div class="all">
+<div class="container">
+<form>
+  <h2 style=" font-size: 250%;">Shipping Address</h2>
+  <label for="name">Full Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="First and Last Name">
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email" placeholder="Please Enter Your Email Address">
+  <label for="adr">Address</label>
+  <input type="text" id="adr" name="address" placeholder="Address-Line">
+  <label for="city">City</label>
+  <input type="text" id="city" name="city" placeholder="City Name">
+
+  <label for="states">State</label>
+  <select id="State" name="State">
+    <option value=""disabled selected>(Select State)</option>
+      <option value="selangor">Selangor</option>
+      <option value="johor">Johor</option>
+      <option value="kedah">Kedah</option>
+      <option value="kelantan">Kelantan</option>
+      <option value="melaka">Melaka</option>
+      <option value="n9">Negeri Sembilan</option>
+      <option value="pahang">Pahang</option>
+      <option value="perak">Perak</option>
+      <option value="perlis">Perlis</option>
+      <option value="penang">Pulau Pinang</option>
+      <option value="sabah">Sabah</option>
+      <option value="sarawak">Sarawak</option>
+      <option value="terengganu">Terengganu</option>
+      <option value="kl">WP Kuala Lumpur</option>
+      <option value="labuan">WP Labuan</option>
+      <option value="putrajaya">WP Putrajaya</option>
+  </select>
+  
+  <label for="zip">Zip</label>
+      <input type="text" id="zip" name="zip" maxlength="5" placeholder="Postcode">
+  
+      <form action="menu.html">
+        <input type="submit" value="Back" class="cancelbtn">
+        </form>
+
+  <form action="checkpay.html">             
+    <input type="submit" value="Continue to checkout" class="btn">
+  </form>
+</div>
+
+<div class="list">
+  <div>
+  <table>
+    <thead>
+      <tr style="font-size: 22px;">
+        <th></th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Size</th>
+        <th>Colour</th>
+      </tr>
+    </thead>
+    <tbody style="background-color: white;">
+      <tr style="font-size: 18px;">
+        <td><img src="https://cld.accentuate.io/5353320710301/1663094670671/Madrid_Heathered-Grey_3-Quarter_Product-Card-1380.png?v=1669223472897&options=w1000" style="height: 90px; width: auto;"></td>
+        <td style="align-items: center;">NEW AIR RACT FLYKNIT</td>
+        <td>RM559.90</td>
+        <td> <select>
+            <option value="quantity1">1</option>
+            <option value="quantity2">2</option>
+            <option value="quantity3">3</option>
+            <option value="quantity4">4</option>
+            <option value="quantity5">5</option>
+            <option value="quantity6">6</option>
+            <option value="quantity7">7</option>
+            <option value="quantity8">8</option>
+            <option value="quantity9">9</option>
+            <option value="quantity10">10</option>
+          </select></td>
+        <td><select>
+            <option value="size-30">30</option>
+            <option value="size-31">31</option>
+            <option value="size-32">32</option>
+            <option value="size-33">33</option>
+            <option value="size-34">34</option>
+            <option value="size-35">35</option>
+            <option value="size-36">36</option>
+            <option value="size-37">37</option>
+            <option value="size-38">38</option>
+            <option value="size-39">39</option>
+            <option value="size-40">40</option>
+          </select></td>
+        <td><select>
+            <option value="colour-black">Black</option>
+            <option value="colour-blue">Blue</option>
+            <option value="colour-green">Green</option>
+            <option value="colour-red">Red</option>
+            <option value="colour-yellow">Yellow</option>
+            <option value="colour-white">White</option>
+            <option value="colour-orange">Orange</option>
+            <option value="colour-pink">Pink</option>
+            <option value="colour-grey">Grey</option>
+            <option value="colour-brown">Brown</option>
+            <option value="colour-purple">Purple</option>
+          </select></td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<div>
+    <table>
+      <tbody style="background-color: white;">
+        <tr>
+          <td>
+            <h style="display: block; text-align: center; font-size: 150%; margin-top: 35px;">Important Shipping Information</h>
+            <p style="display: block; margin: 50px; color: rgb(100, 100, 100);">
+            At SPORTING PARADISE, we prioritize efficient and reliable shipping services to meet our customers' needs. 
+            We offer a variety of shipping methods to choose from, ensuring timely delivery of your packages. 
+            Whether you opt for our standard shipping, express delivery, or overnight service, we strive to process your order promptly within 24-48 hours, excluding weekends and holidays.
+            </p>
+            <p style="display: block; margin: 50px; color: rgb(100, 100, 100)"> 
+                Once your package is on its way, we provide you with a tracking number, enabling you to monitor its progress and anticipate its arrival. 
+                We understand the importance of transparency and convenience in the shipping process, and we are committed to providing a seamless experience for our valued customers.</p>
+        
+        </td>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+      
+</body>
+</html>

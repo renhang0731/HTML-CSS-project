@@ -1,0 +1,152 @@
+body {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit;
+
+}
+
+a:link, a:visited {
+    color: black;
+  
+}
+  
+a:hover, a:active {
+    color: grey;
+    transition: 0.25s;
+  
+}
+  
+.heading{
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    flex-flow: column;
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.heading p{
+    position: relative;
+    text-align: right;
+    right: 20px;
+    
+
+}
+
+.container{
+	align-items:center;
+	justify-content:center;
+	
+}
+
+.container {
+	width: 650px;
+	color:rgb(7, 16, 24);
+	padding: 50px;
+	text-align: center;
+
+}
+
+.container input {
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	background: none;
+	padding: 12px;
+	font-size:15px;
+	border-radius: 22px;
+	outline: none;
+	color: #14191b;
+}
+
+.container input[type="text"], .container input[type="password"] {
+	border: 2px solid hsl(0, 0%, 64%);
+	width: 550px;
+}
+
+.container input[type="submit"] {
+	width: 250px;
+	border: 3px solid #222222;
+	cursor: pointer;
+	width: 300px;
+}
+
+.container input[type="text"]:focus, .container input[type="password"]:focus {
+	border-color:#2f2f2f;
+	width: 580px;
+	transition: 0.5s;
+}
+
+.container input[type="submit"]:hover {
+	background-color: #2ecc71;
+	transition:n 0.5s; 
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 30px 70px 20px;
+  border: 6px solid lightgrey;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+label {
+  font-size: 25px;
+  margin-bottom: 25px;
+  display: block;
+  
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 2px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 3px solid hsl(0, 0%, 50%);
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+    border: 2px solid #656565;
+  }
+  th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+  }
+  th {
+	background-color: #f2f2f2;
+
+  }
+
+  .all{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list{
+    width: 800px
+  }

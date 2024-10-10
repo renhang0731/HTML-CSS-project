@@ -1,0 +1,103 @@
+body {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    overflow-x :hidden;
+
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit;
+
+}
+
+a:link, a:visited {
+    color: black;
+  
+}
+  
+a:hover, a:active {
+    color: grey;
+    transition: 0.25s;
+  
+}
+  
+.heading{
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    flex-flow: column;
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.heading p{
+    position: relative;
+    text-align: right;
+    right: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.image{
+    position: relative;
+    width:128px;
+    height:128px;
+    top: 37px;
+
+}
+
+.form{
+    align-items:center;
+    justify-content:center;
+    display: flex;
+
+}
+
+.signup {
+    background-color: #16275b;
+    width: 700px;
+    color:aliceblue;
+    padding: 50px;
+    box-shadow: 10px 10px 25px#000000;
+    text-align: center;
+
+}
+
+.signup input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 12px;
+    font-size: 17px;
+    border-radius: 22px;
+    outline: none;
+    color: #f8f9fa;
+}
+
+.signup input[type="text"], .signup input[type="password"] {
+    border: 2px solid #3498db;
+    width: 400px;
+}
+
+.signup input[type="submit"] {
+    width: 150px;
+    border: 2px solid #2ecc71;
+    cursor:pointer;
+}
+
+.signup input[type="text"]:focus, .Signup input[type="password"]:focus {
+    border-color: #2ecc71;
+    width: 450px;
+    transition: 0.5s;
+}
+
+.signup input[type="submit"]:hover {
+    background-color: #2ecc71;
+    transition: 0.5s;
+}
